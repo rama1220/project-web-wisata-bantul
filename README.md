@@ -1,2 +1,1 @@
-# web-wisata
-# project-web-wisata
+This website contains information about the location and tourist facilities in the Bantul area, Yogyakarta. The programming language used is PHP and the design language used is CSS using the Codeigniter Framework, the maps used are js geocoding leaflets.
