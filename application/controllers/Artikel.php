@@ -7,8 +7,8 @@ class Artikel extends CI_Controller {
 	{
 
       
-		$data['Artikel'] = $this->Artikel_model->tampil_data()->result();
-		$this->load->view('dasboard/header');
+        $data['Artikel'] = $this->Artikel_model->tampil_data()->result();
+        $this->load->view('dasboard/header');
         $this->load->view('dasboard/sidebar');
         $this->load->view('artikel/artikel_view', $data);
         $this->load->view('dasboard/footer');
